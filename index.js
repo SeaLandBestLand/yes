@@ -5,7 +5,7 @@ source.setAttribute('src', 'Jesus.mp4');
 let num;
 if (num == 1) {
     source.setAttribute('src', 'Jesus.mp4');
-} else if (num == 2) {
+} else {
     source.setAttribute('src', 'Jesus2.mp4');
 }
 
