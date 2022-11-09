@@ -1,7 +1,6 @@
 var video = document.getElementById('video');
 var source = document.createElement('source');
 
-source.setAttribute('src', 'Jesus.mp4');
 let num;
 if (num == 1) {
     source.setAttribute('src', 'Jesus.mp4');
