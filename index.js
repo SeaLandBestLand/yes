@@ -1,7 +1,7 @@
 var video = document.getElementById('video');
 var source = document.createElement('source');
 
-let num;
+let num = Math.floor(Math.random() * (2 - 1 + 1) + 1)
 if (num == 1) {
     source.setAttribute('src', 'Jesus.mp4');
 } else {
@@ -11,10 +11,5 @@ if (num == 1) {
 source.setAttribute('type', 'video/mp4');
 video.autoplay = true;
 video.appendChild(source);
-
-console.log({
-  src: source.getAttribute('src'),
-  type: source.getAttribute('type'),
-});
 
 //document.body.style.backgroundColour = '#fff'
