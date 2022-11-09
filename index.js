@@ -11,5 +11,3 @@ if (num == 1) {
 source.setAttribute('type', 'video/mp4');
 video.autoplay = true;
 video.appendChild(source);
-
-//document.body.style.backgroundColour = '#fff'
